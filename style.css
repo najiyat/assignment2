@@ -632,192 +632,34 @@ body {
     gap: 14px;
     max-width: 100%;
   }
-  .image-8-icon {
-    height: 218px;
-    width: 323px;
-    position: absolute;
-    margin: 0 !important;
-    right: -57px;
-    bottom: -16.5px;
+  .gallary{
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #2e2e2e;
+    display: grid;
+    grid-gap:1px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+}
+.gallary div img{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-  }
-  .image-8-parent,
-  .lorem-ipsum {
-    flex-shrink: 0;
-    position: relative;
-  }
-  .lorem-ipsum-1 {
-    width: 350px;
-    
-    font-weight: 500;
-    display: inline-block;
-    z-index: 1;
-    
-    
-  }
-  .image-8-parent {
-    width: 250px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 157px 24px 27.5px;
-    box-sizing: border-box;
-    color: #efefef;
-    
-    
-
-  
-  }
-
-  .image-8-parent:hover{
-       opacity: 1;
-       background-color: #ff6e57;
-  }
-  .image-6-icon {
-    height: 256px;
-    width: 539px;
-    position: absolute;
-    margin: 0 !important;
-    top: -44px;
-    right: -19px;
-    object-fit: cover;
-  }
-  .second-pair {
-    height: 202px;
-    width: 520px;
-   
-    padding-bottom:100px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 25px 31px;
-    box-sizing: border-box;
-    position: relative;
-    max-width: 100%;
-  }
-  .image-11-icon {
-    height: 214px;
-    width: 388px;
-    position: absolute;
-    margin: 0 !important;
-    right: -56px;
-    bottom: -6.5px;
-    object-fit: cover;
-  }
-  .card-pairs,
-  .third-pair {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .third-pair {
-    flex: 1;
-    background-color: #ccc;
-    overflow: hidden;
-    padding: 146px 27px 21.5px;
-    box-sizing: border-box;
-    position: relative;
-    min-width: 188px;
-    padding-bottom: 50px;
-  }
-  .card-pairs {
-    align-self: stretch;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    max-width: 100%;
-    
-  }
-  .image-7-icon {
-    height: 240px;
-    width: 435px;
-    position: absolute;
-    margin: 0 !important;
-    right: -9px;
-    bottom: -25px;
-    object-fit: cover;
-  }
-  .image-7-parent {
-    flex: 1;
-    background-color: #fff;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 25.5px 0 25px;
-    box-sizing: border-box;
-    position: relative;
-    min-width: 276px;
-    min-height: 202px;
-    max-width: 100%;
-  }
-  .image-10-icon {
-    width: 408px;
-    height: 219px;
-    position: absolute;
-    margin: 0 !important;
-    bottom: -10px;
-    left: calc(50% - 204px);
-    object-fit: cover;
-  }
-  .leg-press-works2 {
-    width: 176px;
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    z-index: 1;
-  }
-  .image-10-parent {
-    width: 288px;
-    background-color: #bbb;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 144.5px 20px 23px 34px;
-    box-sizing: border-box;
-    position: relative;
-  }
-  .image-9-icon {
-    height: 250px;
-    width: 376px;
-    position: absolute;
-    margin: 0 !important;
-    top: -24.5px;
-    left: -15px;
-    object-fit: cover;
-    
-  }
-  .exercise-cards,
-  .image-9-parent {
-    overflow: hidden;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    max-width: 100%;
-  }
-  .image-9-parent {
-    width: 347px;
-    background-color: #fff;
-    flex-shrink: 0;
-    flex-direction: row;
-    padding: 142.5px 38px 25px;
-    box-sizing: border-box;
-    position: relative;
-  }
-  .exercise-cards {
-    flex: 1;
-    background-color: #222;
-    flex-direction: column;
-  }
+}
+.excercise1{
+    grid-row: span 1;
+}
+.exercise2{
+    grid-column: span 2;
+}
+.exercise3{
+    grid-row: span 1;
+}
+.exercise4{
+    grid-column: span 2;
+}
   .calculator-description-wrapper,
   .exercise-types {
     align-self: stretch;
